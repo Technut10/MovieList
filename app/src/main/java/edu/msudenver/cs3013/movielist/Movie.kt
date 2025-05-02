@@ -4,4 +4,5 @@ open class Movie(val title:String, val yearOfRelease: String, val movieGenre:Str
     override fun toString(): String {
         return "Title: $title, Year: $yearOfRelease, Movie: $movieGenre, Rating: $rating"
     }
+
 }
