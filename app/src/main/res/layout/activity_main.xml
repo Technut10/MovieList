@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EFEEEA"
+    android:background="@color/lighter_grey"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="@string/movie_list"
         android:textSize='24sp'
-        android:textColor="#85193C"
+        android:textColor="@color/mint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,20 +23,47 @@
         android:id="@+id/button_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        android:layout_marginTop="75dp"
         >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/add_movie"
-        android:background="#273F4F"
-        app:layout_constraintStart_toStartOf="parent"/>
 
-        </LinearLayout>
+        <Button
+            style="@style/button_style"
+            android:id="@+id/add_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_movie"
+            android:onClick="startSecond"
+            app:layout_constraintStart_toStartOf="parent"/>
+        <Button
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_list"
+            android:layout_marginStart="100dp"
+            />
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/movie_layout">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/movie_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            />
+            <androidx.fragment.app.FragmentContainerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+
+
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

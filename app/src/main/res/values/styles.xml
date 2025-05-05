@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button_style">
+        <item name="android:textSize">14sp</item>
+
+    </style>
+    <style name="re_view_style">
+        <item name="android:background">@color/day_blue</item>
+    </style>
+</resources>

@@ -2,4 +2,9 @@
     <string name="app_name">MovieList</string>
     <string name="movie_list">MOVIE LIST</string>
     <string name="add_movie">ADD MOVIE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save_list">SAVE LIST</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="submit">SUBMIT</string>
 </resources>

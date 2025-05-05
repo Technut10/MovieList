@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    tools:context=".MovieFragment">
+
+    <!-- TODOd: Update blank fragment layout -->
+<LinearLayout
+    android:id="@+id/movie_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <TextView
+            style="@style/re_view_style"
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                >
+                    <TextView
+                        style="@style/re_view_style"
+                        android:id="@+id/year_release_TextView"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="2"
+                        android:textColor="#000000"
+                        android:gravity="start"
+                        android:textSize="12sp" />
+                    <TextView
+                        style="@style/re_view_style"
+                        android:id="@+id/movie_genre_TextView"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="2"
+                        android:textColor="#000000"
+                        android:gravity="center_horizontal"
+                        android:textSize="12sp" />
+                    <TextView
+                        style="@style/re_view_style"
+                        android:id="@+id/rating_TextView"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="2"
+                        android:textColor="#000000"
+                        android:gravity="end"
+                        android:textSize="12sp"
+                        />
+            </LinearLayout>
+</LinearLayout>
+</FrameLayout>
