@@ -49,16 +49,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:id="@+id/movie_layout">
+        android:id="@+id/movie_layout"
+        app:layout_constraintBottom_toTopOf="@id/button_layout">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/movie_view"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
             />
             <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/nav_host_fragment"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+
                 />
 
 

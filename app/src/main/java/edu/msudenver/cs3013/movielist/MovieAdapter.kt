@@ -49,14 +49,12 @@ class MovieAdapter(private val movieList: MutableList<Movie>) : RecyclerView.Ada
             recyclerView: RecyclerView,
             viewHolder: RecyclerView.ViewHolder,
             target: RecyclerView.ViewHolder
-        ): Boolean {
-            return false
-        }
+        ): Boolean = false
 
         override fun getMovementFlags(
             recyclerView: RecyclerView,
             viewHolder: RecyclerView.ViewHolder
-        ) :Int   {
+        ) =
             if (viewHolder is MovieViewHolder) {
                 makeMovementFlags(
                     ItemTouchHelper.ACTION_STATE_IDLE,
@@ -66,11 +64,9 @@ class MovieAdapter(private val movieList: MutableList<Movie>) : RecyclerView.Ada
                     ItemTouchHelper.RIGHT
                 )
             }else{
-               return 0
+                0
             }
 
-            return 1
-        }
 
 
         override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {

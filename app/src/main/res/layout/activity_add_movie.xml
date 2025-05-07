@@ -5,29 +5,32 @@
     android:id="@+id/add_movie"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/peach"
     tools:context=".AddMovieActivity">
 
     <EditText
         android:id="@+id/title"
-        android:layout_width="match_parent"
+        android:layout_width="48sp"
         android:layout_height="14dp"
         android:hint="@string/movie_title"
+        android:textColor="@color/burnt_orange"
         app:layout_constraintTop_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
     <EditText
         android:id="@+id/year_of_release"
-        android:layout_width="match_parent"
+        android:layout_width="125sp"
         android:layout_height="14dp"
-        android:hint="@string/movie_title"
+        android:paddingStart="25dp"
+        android:hint="@string/enter_release_year"
         app:layout_constraintTop_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="@id/title"
         app:layout_constraintTop_toTopOf="parent"/>
     <EditText
         android:id="@+id/movie_genre"
-        android:layout_width="match_parent"
+        android:layout_width="48sp"
         android:layout_height="14dp"
         android:hint="@string/movie_title"
         app:layout_constraintTop_toBottomOf="parent"
@@ -36,7 +39,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
     <EditText
         android:id="@+id/rating"
-        android:layout_width="match_parent"
+        android:layout_width="25sp"
         android:layout_height="14dp"
         android:hint="@string/movie_title"
         app:layout_constraintTop_toBottomOf="parent"
@@ -49,9 +52,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/back_button"
         android:text="@string/submit"
-        app:layout_constraintStart_toStartOf="@+id/rating"
-        app:layout_constraintTop_toTopOf="@id/rating"
-
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toEndOf="@id/rating"
+        app:layout_constraintTop_toBottomOf="@id/rating"
         android:onClick="backToFirst"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

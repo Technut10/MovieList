@@ -7,4 +7,5 @@
     <string name="save_list">SAVE LIST</string>
     <string name="movie_title">Movie Title</string>
     <string name="submit">SUBMIT</string>
+    <string name="enter_release_year">Enter Release Year</string>
 </resources>
