@@ -2,6 +2,7 @@ package edu.msudenver.cs3013.movielist
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -21,24 +22,20 @@ class MainActivity : AppCompatActivity() {
 
     private val startForResult = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){activityResult ->
         val data = activityResult.data
-        val title = data?.getStringExtra("title")?:""
-        val yearOfRelease = data?.getStringExtra("yearOfRelease")?:""
-        val movieGenre = data?.getStringExtra("movieGenre")?:""
-        val rating = data?.getStringExtra("rating")?:""
-
+        val title = data?.getStringExtra("title") ?:""
+        val yearOfRelease = data?.getStringExtra("year") ?:""
+        val movieGenre = data?.getStringExtra("genre") ?:""
+        val rating = data?.getStringExtra("rating") ?:""
         movieList.add(Movie(title, yearOfRelease, movieGenre, rating))
         movieAdapter.notifyDataSetChanged()
+        Log.d("backToFirst", movieList.toString())
 
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+
         movieList.add(Movie("Relic", "1988", "Sci-fi", "9.2"))
         movieList.add(Movie("Chessman", "1993", "Drama", "4.2"))
 

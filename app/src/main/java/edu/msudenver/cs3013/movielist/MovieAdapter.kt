@@ -10,26 +10,20 @@ import kotlin.Int
 
 class MovieAdapter(private val movieList: MutableList<Movie>) : RecyclerView.Adapter<MovieAdapter.MovieViewHolder?>() {
     class MovieViewHolder(itemView: View ) : RecyclerView.ViewHolder(itemView) {
-        var titleView: TextView
-        var movieGenreTextView: TextView
-        var yearReleaseView: TextView
-        var ratingTextView: TextView
-        init {
-            titleView = itemView.findViewById<TextView?>(R.id.titleTextView)
-            movieGenreTextView = itemView.findViewById<TextView?>(R.id.movie_genre_TextView)
-            yearReleaseView = itemView.findViewById<TextView?>(R.id.year_release_TextView)
-            ratingTextView = itemView.findViewById<TextView?>(R.id.rating_TextView)
-        }
+        var titleView: TextView = itemView.findViewById<TextView?>(R.id.titleTextView)
+        var movieGenreTextView: TextView = itemView.findViewById<TextView?>(R.id.movie_genre_TextView)
+        var yearReleaseView: TextView = itemView.findViewById<TextView?>(R.id.year_release_TextView)
+        var ratingTextView: TextView = itemView.findViewById<TextView?>(R.id.rating_TextView)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType:Int): MovieViewHolder{
-        val view: View = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_movie, parent, false)
+        val view: View = LayoutInflater.from(parent.getContext()).inflate(R.layout.movie_item, parent, false)
         return MovieViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
         val movie = movieList.get(position)
-        holder.titleView.setText(movie.title)
+        holder.titleView.text = movie.title
         holder.yearReleaseView.setText(movie.yearOfRelease)
         holder.movieGenreTextView.setText(movie.movieGenre)
         holder.ratingTextView.setText(movie.rating)
