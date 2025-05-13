@@ -21,6 +21,8 @@ import java.io.FileWriter
 import java.io.IOException
 import java.util.Scanner
 import kotlin.jvm.java
+import android.view.Menu
+import android.view.MenuItem
 
 class MainActivity : AppCompatActivity() {
     val movieList: MutableList<Movie?> = ArrayList<Movie?>()
@@ -130,5 +132,29 @@ class MainActivity : AppCompatActivity() {
         }catch (e: FileNotFoundException){
             print("errrrrrroooooorrrrr")
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.xml, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.ratingSort -> {
+                movieList?.sortBy{it?.rating}
+                movieAdapter.notifyDataSetChanged()
+            }
+            R.id.yearSort ->{
+                movieList?.sortBy { it?.yearOfRelease }
+                movieAdapter.notifyDataSetChanged()
+            }
+            R.id.genreSort -> {
+                movieList?.sortBy{it?.movieGenre }
+                movieAdapter.notifyDataSetChanged()
+            }
+        }
+
+        return super.onOptionsItemSelected(item)
     }
 }

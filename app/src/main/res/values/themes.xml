@@ -1,16 +1,21 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.MovieList" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.MovieList" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Customize your light theme here. -->
          <item name="colorPrimary">@color/dark_mint</item>
+        <item name="colorOnPrimary">@color/baby_pink</item>
+        <item name="colorSurface">@color/sea_foam_cold</item>
 
     </style>
-
+    <style name="Theme.MovieList.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MovieList.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.MovieList.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="Theme.MovieList" parent="Base.Theme.MovieList">
         <item name="android:textColorPrimary">@color/retro_black</item>
-
-
     </style>
 
     </resources>
