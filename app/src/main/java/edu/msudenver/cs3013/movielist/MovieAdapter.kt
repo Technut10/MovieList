@@ -23,7 +23,7 @@ class MovieAdapter(private val movieList: MutableList<Movie>) : RecyclerView.Ada
 
     override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
         val movie = movieList.get(position)
-        holder.titleView.text = movie.title
+        holder.titleView.setText(movie.title)
         holder.yearReleaseView.setText(movie.yearOfRelease)
         holder.movieGenreTextView.setText(movie.movieGenre)
         holder.ratingTextView.setText(movie.rating)

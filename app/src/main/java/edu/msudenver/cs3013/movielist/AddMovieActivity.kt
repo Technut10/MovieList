@@ -20,7 +20,6 @@ import android.util.Log
  */
 class AddMovieActivity : AppCompatActivity() {
 
-    var passList = mutableListOf<Movie>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_movie)
@@ -39,7 +38,6 @@ class AddMovieActivity : AppCompatActivity() {
         var rating = textRating.getText().toString()
 
         Log.d("backToFirst", "Data Sent: $title, $year, $movieGenre, $rating")
-
         setMovieInfo(title, year, movieGenre, rating)
         finish()
 
@@ -51,14 +49,9 @@ class AddMovieActivity : AppCompatActivity() {
         movieOfIntent.putExtra("year", year)
         movieOfIntent.putExtra("genre", genre)
         movieOfIntent.putExtra("rating", rating)
-        Intent(this, MainActivity::class.java).let{
-                dataIntent ->
-            dataIntent.putExtra("COUNT",passList.size.toString())
-            for (i in 0 until passList.size) {
-                dataIntent.putExtra("PASS${i + 1}", passList[i].toString())
-            }
+
         Log.d("backToFirst", "This Set: $title, $year, $genre, $rating")
         setResult(Activity.RESULT_OK, movieOfIntent)
         finish()
     }
-}}
+}
