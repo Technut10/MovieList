@@ -6,12 +6,8 @@ import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
-import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -24,6 +20,11 @@ import kotlin.jvm.java
 import android.view.Menu
 import android.view.MenuItem
 
+/**
+ *          Movie List - An app that tracks movies inputs and sorts them in a list.
+ *  @author Anthony Putman  5/12/25
+ *  @version 1.0.0
+ * */
 class MainActivity : AppCompatActivity() {
     val movieList: MutableList<Movie?> = ArrayList<Movie?>()
     val movieAdapter = MovieAdapter(movieList as MutableList<Movie>)
