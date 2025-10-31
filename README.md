@@ -56,37 +56,37 @@ MovieList/
 │   │   │       └── values/
 ```
 
-### 📸 Screenshots
+## 📸 Screenshots
 
-#### **All screenshots taken on a Samsung Galaxy s22 Ultra*
-#### 🧾 Movie Entry Form
+### **All screenshots taken on a Samsung Galaxy s22 Ultra*
+### 🧾 Movie Entry Form
 
 <img width="1440" height="3088" alt="movie-entry-filled" src="https://github.com/user-attachments/assets/9f59910b-c341-4481-b6b1-83e7e5e79acd" />
 
-#### ✅ Filled Entry Example
+### ✅ Filled Entry Example
 <img width="1440" height="3088" alt="movie-entry-filled" src="https://github.com/user-attachments/assets/162a1909-fd57-4a42-b925-3aeb51ea09b6" />
 
 
-#### 📋 Movie List View
+### 📋 Movie List View
 
 <img width="720" height="1280" alt="movie-list-initial" src="https://github.com/user-attachments/assets/d1e2bd55-7856-4329-8456-ff2561f4c9ab" />
 
 
-#### 🔽 Sorting Options
+### 🔽 Sorting Options
 <img width="1440" height="3088" alt="movie-sorting-menu" src="https://github.com/user-attachments/assets/4689cec9-0a16-4a24-bbc6-10162a50a0e4" />
 
-#### 🎞️ Expanded Movie List
+### 🎞️ Expanded Movie List
 <img width="3088" height="1440" alt="movie-list-expanded" src="https://github.com/user-attachments/assets/50aecfd0-4d96-45a5-bdf6-2a18d97cf3ba" />
 
 
-#### 🌟 Top-Rated Classics
+### 🌟 Top-Rated Classics
 <img width="1440" height="3088" alt="movie-list-classic" src="https://github.com/user-attachments/assets/64550e52-51da-4028-8ed2-6e0ed03826a8" />
 
 
-#### 🎭 Genre Variety
+### 🎭 Genre Variety
 <img width="1440" height="3088" alt="movie-list-mixed" src="https://github.com/user-attachments/assets/40635391-85ab-45c8-9be1-eabd003eee10" />
 
-#### 📊 Consistent Ratings
+### 📊 Consistent Ratings
 <img width="1440" height="3088" alt="movie-list-consistent" src="https://github.com/user-attachments/assets/a368f9f1-576f-4c77-81f7-46c9d04c4afe" />
 
 <img width="1440" height="3088" alt="movie-list-consistent1" src="https://github.com/user-attachments/assets/3f3e051b-004c-4483-ab40-259d5617ef1e" />
