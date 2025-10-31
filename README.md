@@ -63,6 +63,7 @@ MovieList/
 
 
 ![Movie Entry Form](F://AndroidApps/MovieList/assets/movie-entry-form.png "Movie Entry Form")
+<img width="1440" height="3088" alt="movie-entry-filled" src="https://github.com/user-attachments/assets/9f59910b-c341-4481-b6b1-83e7e5e79acd" />
 
 #### ✅ Filled Entry Example
 
