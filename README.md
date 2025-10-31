@@ -61,62 +61,38 @@ MovieList/
 #### **All screenshots taken on a Samsung Galaxy s22 Ultra*
 #### 🧾 Movie Entry Form
 
-<h2>📸 Screenshots</h2>
 
-<div align="center">
-  <h4>🧾 Movie Entry Form</h4>
-  <img src="F:\AndroidApps\MovieList\assets\movie-entry-form.png" alt="Movie Entry Form" width="300"/>
-  <p><em>Add a movie with title, genre, year, and rating.</em></p>
-</div>
+![Movie Entry Form](F:\AndroidApps\MovieList\assets\movie-entry-form.png "Movie Entry Form")
 
-<div align="center">
-  <h4>✅ Filled Entry Example</h4>
-  <img src="F:\AndroidApps\MovieList\assets\movie-entry-filled.png" alt="Filled Entry Example" width="300"/>
-  <p><em>Example of a completed movie entry ready to submit.</em></p>
-</div>
+#### ✅ Filled Entry Example
 
-<div align="center">
-  <h4>📋 Movie List View</h4>
-  <img src="F:\AndroidApps\MovieList\assets\movie-list-initial.png" alt="Initial List" width="300"/>
-  <p><em>Initial list of movies displayed on the home screen.</em></p>
-</div>
+![Filled Entry Example](F:\AndroidApps\MovieList\assets\movie-entry-filled.png "Movie Entry Filled")
 
-<div align="center">
-  <h4>🔽 Sorting Options</h4>
-  <img src="F:\AndroidApps\MovieList\assets\movie-sorting-menu.png" alt="Sorting Menu" width="300"/>
-  <p><em>Sort your list by rating, year, or name using the dropdown menu.</em></p>
-</div>
+#### 📋 Movie List View
 
-<div align="center">
-  <h4>🎞️ Expanded Movie List</h4>
-  <img src="F:\AndroidApps\MovieList\assets\movie-list-expanded.png" alt="Expanded Movie List" width="300"/>
-  <p><em>A longer view of your curated movie collection.</em></p>
-</div>
+![Initial list on the app's homescreen](F:\AndroidApps\MovieList\assets\movie-list-initial.png "Initial List")
 
-<div align="center">
-  <h4>🌟 Top-Rated Classics</h4>
-  <img src="F:\AndroidApps\MovieList\assets\movie-list-classic.png" alt="Top-Rated Classics" width="300"/>
-  <p><em>Showcase of highly rated films across genres and decades.</em></p>
-</div>
+#### 🔽 Sorting Options
 
-<div align="center">
-  <h4>🎭 Genre Variety</h4>
-  <img src="F:\AndroidApps\MovieList\assets\movie-list-mixed.png" alt="Genre Variety" width="300"/>
-  <p><em>A diverse mix of action, drama, horror, and sci-fi titles.</em></p>
-</div>
+![Sorting Options](F:\AndroidApps\MovieList\assets\movie-sorting-menu.png "Sorting Menu")
 
-<div align="center">
-  <h4>📊 Consistent Ratings</h4>
-  <img src="F:\AndroidApps\MovieList\assets\movie-list-consistent.png" alt="Consistent Ratings" width="300"/>
-  <p><em>A balanced list of movies all rated 8.7 and above.</em></p>
-</div>
+#### 🎞️ Expanded Movie List
 
-<div align="center">
-  <h4>📊 Consistent Ratings (Alternate View)</h4>
-  <img src="F:\AndroidApps\MovieList\assets\movie-list-consistent1.png" alt="Consistent Ratings 2" width="300"/>
-  <p><em>Another view of consistently high-rated movies.</em></p>
-</div>
+![Expanded Movie List](F:\AndroidApps\MovieList\assets\movie-list-expanded.png)
 
+#### 🌟 Top-Rated Classics
+
+![Top-Rated Classics](F:\AndroidApps\MovieList\assets\movie-list-classic.png)
+
+#### 🎭 Genre Variety
+
+![Genre Variety](F:\AndroidApps\MovieList\assets\movie-list-mixed.png "Genre Variety")
+
+#### 📊 Consistent Ratings
+
+![Consistent Ratings](F:\AndroidApps\MovieList\assets\movie-list-consistent.png "Consistent Ratings")
+
+![Consistent Ratings 2](F:\AndroidApps\MovieList\assets\movie-list-consistent1.png "Consistent Rating 1")
 
 ## 🤝🏿 Contributing
 
