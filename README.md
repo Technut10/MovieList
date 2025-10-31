@@ -64,32 +64,33 @@ MovieList/
 <img width="720" height="1245" alt="movie-entry-filled" src="https://github.com/user-attachments/assets/9f59910b-c341-4481-b6b1-83e7e5e79acd" />
 
 ### ✅ Filled Entry Example
-<img width="720" height="1245" alt="movie-entry-filled" src="https://github.com/user-attachments/assets/162a1909-fd57-4a42-b925-3aeb51ea09b6" />
+<img width="720" height="1080" alt="movie-entry-filled" src="https://github.com/user-attachments/assets/162a1909-fd57-4a42-b925-3aeb51ea09b6" />
 
 
 ### 📋 Movie List View
 
-<img width="720" height="1280" alt="movie-list-initial" src="https://github.com/user-attachments/assets/d1e2bd55-7856-4329-8456-ff2561f4c9ab" />
+<img width="720" height="1080" alt="movie-list-initial" src="https://github.com/user-attachments/assets/d1e2bd55-7856-4329-8456-ff2561f4c9ab" />
 
 
 ### 🔽 Sorting Options
-<img width="720" height="1280" alt="movie-sorting-menu" src="https://github.com/user-attachments/assets/4689cec9-0a16-4a24-bbc6-10162a50a0e4" />
+<img width="720" height="1080" alt="movie-sorting-menu" src="https://github.com/user-attachments/assets/4689cec9-0a16-4a24-bbc6-10162a50a0e4" />
 
 ### 🎞️ Expanded Movie List
 <img width="3088" height="1440" alt="movie-list-expanded" src="https://github.com/user-attachments/assets/50aecfd0-4d96-45a5-bdf6-2a18d97cf3ba" />
 
 
 ### 🌟 Top-Rated Classics
-<img width="720" height="3088" alt="movie-list-classic" src="https://github.com/user-attachments/assets/64550e52-51da-4028-8ed2-6e0ed03826a8" />
+<img width="720" height="1080" alt="movie-list-classic" src="https://github.com/user-attachments/assets/64550e52-51da-4028-8ed2-6e0ed03826a8" />
 
 
 ### 🎭 Genre Variety
-<img width="720" height="1280" alt="movie-list-mixed" src="https://github.com/user-attachments/assets/40635391-85ab-45c8-9be1-eabd003eee10" />
+<img width="720" height="1080" alt="movie-list-mixed" src="https://github.com/user-attachments/assets/40635391-85ab-45c8-9be1-eabd003eee10" />
 
 ### 📊 Consistent Ratings
-<img width="720" height="1280" alt="movie-list-consistent" src="https://github.com/user-attachments/assets/a368f9f1-576f-4c77-81f7-46c9d04c4afe" />
+<img width="720" height="1080" alt="movie-list-consistent" src="https://github.com/user-attachments/assets/a368f9f1-576f-4c77-81f7-46c9d04c4afe" />
 
-<img width="720" height="1280" alt="movie-list-consistent1" src="https://github.com/user-attachments/assets/3f3e051b-004c-4483-ab40-259d5617ef1e" />
+###  📊 Consistent Ratings 2
+<img width="720" height="1080" alt="movie-list-consistent1" src="https://github.com/user-attachments/assets/3f3e051b-004c-4483-ab40-259d5617ef1e" />
 
 
 ## 🤝🏿 Contributing
