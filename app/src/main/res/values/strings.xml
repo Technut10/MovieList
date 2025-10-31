@@ -5,9 +5,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="save_list">SAVE LIST</string>
-    <string name="movie_title">Movie Title</string>
+    <string name="movie_title">MOVIE TITLE</string>
     <string name="submit">SUBMIT</string>
-    <string name="enter_release_year">Enter Release Year</string>
+    <string name="enter_release_year">RELEASE YEAR</string>
     <string name="movie_genre">MOVIE GENRE</string>
     <string name="movie_rating">MOVIE RATING</string>
 </resources>
