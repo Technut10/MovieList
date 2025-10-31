@@ -62,7 +62,7 @@ MovieList/
 #### 🧾 Movie Entry Form
 
 
-![Movie Entry Form](F:\\/AndroidApps/MovieList/assets/movie-entry-form.png "Movie Entry Form")
+![Movie Entry Form](F://AndroidApps/MovieList/assets/movie-entry-form.png "Movie Entry Form")
 
 #### ✅ Filled Entry Example
 
