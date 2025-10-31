@@ -5,9 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lighter_grey"
+    android:background="@color/navy"
     android:orientation="vertical"
-    android:layout_marginTop="75dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -26,21 +25,27 @@
         android:orientation="horizontal"
         android:layout_marginTop="50dp"
         >
-        <Button
-            style="@style/button_style"
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
             android:id="@+id/add_movie"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="@string/add_movie"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
             android:onClick="startSecond"
-            app:layout_constraintStart_toStartOf="parent"/>
-        <Button
-            style="@style/button_style"
-            android:id="@+id/save_button"
+            />
+        <com.google.android.material.button.MaterialButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/save_button"
             android:text="@string/save_list"
-            android:layout_marginStart="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="@id/movie_entry_layout"
+
             />
    </LinearLayout>
 

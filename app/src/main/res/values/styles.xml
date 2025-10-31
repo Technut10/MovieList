@@ -6,6 +6,6 @@
 
     </style>
     <style name="re_view_style">
-        <item name="android:background">@color/day_blue</item>
+        <item name="android:background">@color/burnt_orange</item>
     </style>
 </resources>

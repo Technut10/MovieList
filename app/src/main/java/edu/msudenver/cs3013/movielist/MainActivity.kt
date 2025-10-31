@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         val myDirectory = this.getFilesDir()
         val myDirName  = myDirectory.getAbsolutePath()
         val button = findViewById<Button>(R.id.save_button)
-
+        val welcomeMessage = "Welcome to Movie List!"
         myPlacer  = myDirName
 
 
@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
 
         recyclerView.setAdapter(movieAdapter)
 
-        Toast.makeText(this, "Welcome!", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, welcomeMessage, Toast.LENGTH_LONG).show()
 
     }
 
@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
         try {
             val f = File("$myPlacer/Top20.csv")
             f.createNewFile()
-//            val file = File("$myPlacer/MOVIELIST.csv")
+    //        val file = File("$myPlacer/MOVIELIST.csv")
 //            file.createNewFile()
             val myReader = Scanner(f)
             while (myReader.hasNextLine()) {
